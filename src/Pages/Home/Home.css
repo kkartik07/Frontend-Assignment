@@ -1,0 +1,61 @@
+.jsonarea{
+    height:80vh;
+    resize:none;
+    background-color: rgb(40, 44, 44);
+    font-size: 20px;
+    padding: 1.5rem;
+    color:rgb(145, 202, 252);
+    border-radius:20px 0 0 20px;
+    margin-left: 20px;
+    width:100%;
+    border: 1px solid rgb(138, 171, 237);
+
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border: 1px solid rgb(138, 171, 237);
+    background: #041E42;
+    font-size: 20px;
+    border-radius:20px 0 0 20px;
+    height:80vh;
+    overflow-y: scroll;
+    padding-top:200px;
+    padding-bottom:20px;
+}
+
+
+.btn{
+    color: #00ffa2;
+    margin-top: 10px;
+}
+.container {
+    margin-right: 20px;
+    overflow-y: hidden; /* Add this line to hide overflow */
+  }
+  
+   ::-webkit-scrollbar {
+    width: 7px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 1000px;       /* roundness of the scroll thumb */
+
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+   
+

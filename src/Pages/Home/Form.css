@@ -1,0 +1,22 @@
+.copy{
+    float: right;
+    margin-right: 40px;
+    font-size: 12px;
+    height: 30px;
+    width: 70px;
+}
+.close{
+    /* display: flex; */
+    margin-top: 6px;
+    align-items: center;
+}
+.formbody{
+    color:whitesmoke;
+}
+.modal{
+    background-color: #2B6CB0 !important;
+    color:rgb(17, 1, 4) !important;
+}
+.modaloverlay{
+    backdrop-filter: blur(4px);
+}
